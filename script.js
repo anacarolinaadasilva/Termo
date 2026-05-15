@@ -165,7 +165,7 @@ botao.addEventListener("click", () => {
   mostrarMensagem(`Você perdeu, a palavra era ${palavraDoJogo}`)
     if (tentativas > 0) {
     //Verifica se a palavra digitada é diferente do tamanho padrão do jogo, que é 5!
-    atualizarTentativa();
+    atualizarTentativas();
     console.log(palavraDigitada + palavraDigitada.length)
     if (palavraDigitada.length < 5) {
       return alert("Digite 5 letras!");
